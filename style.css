@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+  background-color: #36558F;
+  color: #fff;
+  margin: 0;
+  padding: 30px 20px;
+}
+
+#gameInfo {
+  text-align: center;
+  line-height: 140%;
+  margin: 0;
+  padding: 15px 25px;
+  background-color: #C9CAD9;
+}
+
+.fa-smile-wink {
+  background-color: yellow;
+  color: #000;
+  border-radius: 50%;
+}
+
+.container{
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 50%;
+  max-width: 650px;
+  min-width: 400px;
+  position: relative;
+}
+
+.game{
+  background-color: #FFCB47;
+  color: #000;
+  text-align: center;
+  padding: 30px 25px;
+}
+
+.game label{
+  font-size: 20pt;
+}
+
+.game .guessField{
+  text-align: center;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 14pt;
+  padding: 8px;
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.game .guessSubmit, button{
+  background-color: #272727;
+  color: #fff;
+  width: 175px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  outline: none;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+.game .guessSubmit:hover, button:hover{
+  background-color: #e0e0e0;
+  color: #272727;
+  border: 1px solid #272727;
+}
+
+button{
+  margin-top: 10px;
+}
+
+.resultParas{
+  padding-top: 20px;
+}
